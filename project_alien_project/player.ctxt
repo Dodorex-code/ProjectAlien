@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=player
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ player\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=rot
+comment1.target=int\ norm180(int)
+comment2.params=rot
+comment2.target=int\ norm360(int)
+comment3.params=angle1\ angle2
+comment3.target=int\ direction(int,\ int)
+comment4.params=
+comment4.target=void\ act()
+numComments=5
