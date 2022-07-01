@@ -8,8 +8,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class player extends Actor
 {
-    int lives = 3;
-    
+    int bullets = 10;
+    private boolean spaceDown;
     public static int norm180(int rot)
     {
         if(rot>180)rot=-180+(rot-180);
@@ -61,6 +61,21 @@ public class player extends Actor
             
             setLocation(posx,posy);
             setRotation(angle);
+        }
+        if (!spaceDown && Greenfoot.isKeyDown("space"))
+        {
+            spaceDown = true;
+            bullet Bullet = new bullet();
+            Bullet.setRotation(getRotation());
+            if(bullets > 0)
+            {
+                getWorld().addObject(Bullet, getX(), getY());
+                bullets -= 1;
+            }
+        }
+        if (spaceDown && !Greenfoot.isKeyDown("space"))
+        {
+            spaceDown = false;
         }
     }
 }

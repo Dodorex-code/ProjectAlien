@@ -30,5 +30,9 @@ public class asteroid extends Actor
             ExplsionSound.play();
             Greenfoot.setWorld(new MyWorld());
         }
+        if(isTouching(bullet.class))
+        {
+            getWorld().removeObject(this);
+        }
     }
 }
