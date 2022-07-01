@@ -1,16 +1,1 @@
-__What is this?__
-- This is a little school project
-
-__Ideen__ 
-- Zufällige Planeten werden ausgewählt
-- Zufällige Fluggeschwindigkeit
-- Meteoriten die durch die Luft fliegen
-- Planet bewegt sich leicht (gleitet leicht)
-- Scoreboard das den Score anzeigt
-- Planeten sind keine Runden Bilder
-- Raumschiff kann schießen (evtl. mit Cooldown)
-- Raumschiff evtl. random drehen und bewegen (kleiner Spielraum)
-- Planeten generell kleiner
-- Raumschiff nicht immer an der selben Position spawnen
-- Planet spawnt nicht zu Nahe zum Raumschiff
-- Bild an Bildschirmgröße anpassen
+__ich brauche dringend deinen dc namen also schreib mir mal (thevalleyy#1337) auf discord__
