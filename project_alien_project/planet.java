@@ -16,14 +16,13 @@ public class planet extends Actor
     {
         PlanetNumber = Greenfoot.getRandomNumber(16);
         setImage("planet"+PlanetNumber+".png");
-        
     }
     public void act()
     {
-        if(isTouching(player.class))
-        {
-            LandSound.play();
-            Greenfoot.setWorld(new MyWorld());
-        }
+        //if(isTouching(player.class))
+        //{
+            //LandSound.play();
+            //Greenfoot.setWorld(new MyWorld());
+        //}
     }
 }

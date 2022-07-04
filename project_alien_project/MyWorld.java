@@ -13,15 +13,16 @@ public class MyWorld extends World
     GreenfootSound backgroundMusic = new GreenfootSound("ambient_space_mp.mp3");
     // anzakl der asteroiden die gespawnt werden sollen
     int AsteroidAmmount = Greenfoot.getRandomNumber(8);
-    
-    
+    int planetX = Greenfoot.getRandomNumber(getWidth()-50);
+    int planetY = Greenfoot.getRandomNumber(getHeight()-50);
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super((int) Math.round(Toolkit.getDefaultToolkit().getScreenSize().width * 0.8), (int) Math.round(Toolkit.getDefaultToolkit().getScreenSize().height * 0.8), 1, false); 
 
-        addObject(new planet(), Greenfoot.getRandomNumber(getWidth()-50), Greenfoot.getRandomNumber(getHeight()-50));
+        addObject(new planet(), planetX, planetY);
         addObject(new player(),(int) (0.5*getWidth()),(int) (0.5*getHeight()));
+        addObject(new planet_collision_handle(), planetX, planetY);
         for(int i = 0; i < AsteroidAmmount; i++)
         {
             int x = Greenfoot.getRandomNumber(getWidth()-10);
