@@ -6,7 +6,6 @@ __Ideen__
 - Planet bewegt sich leicht (gleitet leicht)
 - Scoreboard das den Score anzeigt
 - Planeten sind keine Runden Bilder
-- Raumschiff kann schießen (evtl. mit Cooldown)
 - Raumschiff evtl. random drehen und bewegen (kleiner Spielraum)
 - Planeten generell kleiner
 - Raumschiff nicht immer an der selben Position spawnen
