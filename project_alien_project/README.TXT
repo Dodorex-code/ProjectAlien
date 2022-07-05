@@ -9,4 +9,4 @@ PURPOSE OF PROJECT: School
 VERSION or DATE: 05.07.2022
 HOW TO START THIS PROJECT: start with greenfoot
 AUTHORS: Dodorex-code and thevalleyy
-USER INSTRUCTIONS:
+USER INSTRUCTIONS: use with greenfoot engine
