@@ -4,9 +4,9 @@ Tell the reader (someone who does not know anything about this project)
 all they need to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
+PROJECT TITLE: ProjectAlien
+PURPOSE OF PROJECT: School
+VERSION or DATE: 05.07.2022
+HOW TO START THIS PROJECT: start with greenfoot
+AUTHORS: Dodorex-code and thevalleyy
 USER INSTRUCTIONS:
