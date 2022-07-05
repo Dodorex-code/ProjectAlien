@@ -9,7 +9,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class asteroid extends Actor
 {
     GreenfootSound ExplsionSound = new GreenfootSound("explosion.mp3");
-    
     public asteroid()
     {
         setRotation(Greenfoot.getRandomNumber(270));
@@ -32,6 +31,8 @@ public class asteroid extends Actor
         }
         if(isTouching(bullet.class))
         {
+            getWorld().addObject(new explode(), getX(), getY());
+            ExplsionSound.play();
             getWorld().removeObject(this);
         }
     }
