@@ -7,4 +7,3 @@ __Ideen__
 - Raumschiff evtl. random drehen und bewegen (kleiner Spielraum)
 - Planeten generell kleiner
 - Planet spawnt nicht zu Nahe zum Raumschiff
-- Wenn kein Maus Input ist, gleitet das Schiff leicht weiter in die Richtung 
