@@ -32,6 +32,7 @@ public class asteroid extends Actor
         if(isTouching(bullet.class))
         {
             getWorld().addObject(new explode(), getX(), getY());
+            this.getWorld().getObjects(player.class).get(0).incScore();
             ExplsionSound.play();
             getWorld().removeObject(this);
         }
