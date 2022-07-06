@@ -11,3 +11,6 @@ __Ideen__
 - Raumschiff nicht immer an der selben Position spawnen
 - Planet spawnt nicht zu Nahe zum Raumschiff
 - Wenn kein Maus Input ist, gleitet das Schiff leicht weiter in die Richtung 
+
+
+Test edit
