@@ -21,7 +21,7 @@ public class MyWorld extends World
         super((int) Math.round(Toolkit.getDefaultToolkit().getScreenSize().width * 0.8), (int) Math.round(Toolkit.getDefaultToolkit().getScreenSize().height * 0.8), 1, false);
 
         addObject(new planet(), planetX, planetY);
-        addObject(new player(),Greenfoot.getRandomNumber(getWidth()-100),Greenfoot.getRandomNumber(getHeight()-100));
+        addObject(new player(),Greenfoot.getRandomNumber(getWidth()-300),Greenfoot.getRandomNumber(getHeight()-300));
         //(int) (0.5*getWidth())
         //(int) (0.5*getHeight())
         addObject(new planet_collision_handle(), planetX, planetY);
