@@ -1,17 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class explode here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class explode extends Actor
 {
     private int timer = 100;
     public void act()
     {
-        this.timer = this.timer -1;
+        this.timer = this.timer -2;
         if(this.timer == 90)
         {
             setImage("boom1.png");

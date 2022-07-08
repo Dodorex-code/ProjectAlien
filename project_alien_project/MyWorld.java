@@ -1,17 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-import java.awt.Toolkit;
+import java.awt.Toolkit; // (currently used for getting screensize)
 
-/**
- * Write a description of class MyWorld here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class MyWorld extends World
 {
-    // spawnt die hintergrundmusik, speilt sie allerdings nicht ab
+    // spawnt die hintergrundmusik, spielt sie allerdings nicht ab
     GreenfootSound backgroundMusic = new GreenfootSound("ambient_space_mp.mp3");
-    // anzakl der asteroiden die gespawnt werden sollen
+    // anzahl der asteroiden die gespawnt werden sollen
     public int AsteroidAmmount = Greenfoot.getRandomNumber(8);
     int planetX = Greenfoot.getRandomNumber(getWidth()-50);
     int planetY = Greenfoot.getRandomNumber(getHeight()-50);
