@@ -1,18 +1,12 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class player here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class player extends Actor
 {
     int bullets = 5;
     private boolean spaceDown;
     int AsteroidsInSpace = 0;
     int Score = 0;
-    //sounds
+    // sounds
     GreenfootSound Pickup = new GreenfootSound("on_land.mp3");
     GreenfootSound Laser = new GreenfootSound("laser.mp3");
     
@@ -89,6 +83,9 @@ public class player extends Actor
         else
         {
             move(1);
+            if (isAtEdge()) {
+                turn(45);
+            }
         }
         
         if (!spaceDown && Greenfoot.isKeyDown("space"))
